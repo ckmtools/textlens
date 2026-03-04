@@ -3,7 +3,10 @@
 Fast, zero-dependency text analysis and readability toolkit for Node.js.
 
 [![npm version](https://img.shields.io/npm/v/textlens)](https://www.npmjs.com/package/textlens)
+[![npm downloads](https://img.shields.io/npm/dm/textlens)](https://www.npmjs.com/package/textlens)
 [![license](https://img.shields.io/npm/l/textlens)](https://github.com/ckmtools/textlens/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
+[![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/textlens)
 
 ## Features
 
