@@ -2,26 +2,13 @@
 
 Fast, zero-dependency text analysis and readability toolkit for Node.js.
 
-[![npm version](https://img.shields.io/npm/v/textlens)](https://www.npmjs.com/package/textlens)
+[![npm version](https://img.shields.io/npm/v/textlens?color=00E5A0)](https://www.npmjs.com/package/textlens)
 [![npm downloads](https://img.shields.io/npm/dm/textlens)](https://www.npmjs.com/package/textlens)
 [![license](https://img.shields.io/npm/l/textlens)](https://github.com/ckmtools/textlens/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/textlens)
 
-## Features
-
-- **Text Statistics** — word, sentence, paragraph, and syllable counts
-- **8 Readability Formulas** — Flesch-Kincaid, Coleman-Liau, Gunning Fog, SMOG, ARI, Dale-Chall, Linsear Write, and Flesch Reading Ease
-- **Consensus Grade** — weighted average across all formulas
-- **Reading Time** — estimated minutes to read, with configurable WPM
-- **Keyword Extraction** — TF-IDF based keyword scoring
-- **Keyword Density** — unigram, bigram, and trigram frequency analysis
-- **Sentiment Analysis** — AFINN-165 lexicon-based positive/negative/neutral scoring
-- **SEO Scoring** — content quality grade with actionable suggestions
-- **Extractive Summarization** — sentence ranking for automatic summaries
-- **CLI Tool** — analyze files or piped text from the terminal
-- **Zero Dependencies** — no runtime dependencies, small bundle size
-- **Dual Format** — ships ESM and CommonJS builds with full TypeScript types
+**[Documentation & Examples](https://ckmtools.dev/textlens/)** | **[GitHub](https://github.com/ckmtools/textlens)** | **[npm](https://www.npmjs.com/package/textlens)**
 
 ## Installation
 
@@ -43,6 +30,21 @@ console.log(result.sentiment.label);            // 'positive', 'negative', or 'n
 console.log(result.keywords);                   // top keywords by TF-IDF score
 console.log(result.summary.sentences);          // extractive summary
 ```
+
+## Features
+
+- **Text Statistics** — word, sentence, paragraph, and syllable counts
+- **8 Readability Formulas** — Flesch-Kincaid, Coleman-Liau, Gunning Fog, SMOG, ARI, Dale-Chall, Linsear Write, and Flesch Reading Ease
+- **Consensus Grade** — weighted average across all formulas
+- **Reading Time** — estimated minutes to read, with configurable WPM
+- **Keyword Extraction** — TF-IDF based keyword scoring
+- **Keyword Density** — unigram, bigram, and trigram frequency analysis
+- **Sentiment Analysis** — AFINN-165 lexicon-based positive/negative/neutral scoring
+- **SEO Scoring** — content quality grade with actionable suggestions
+- **Extractive Summarization** — sentence ranking for automatic summaries
+- **CLI Tool** — analyze files or piped text from the terminal
+- **Zero Dependencies** — no runtime dependencies, small bundle size
+- **Dual Format** — ships ESM and CommonJS builds with full TypeScript types
 
 ## API Reference
 
