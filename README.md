@@ -252,6 +252,10 @@ The **consensus grade** is a weighted average of all formula results, providing 
 
 - **SMOG Index** requires at least 30 sentences for a statistically valid result. For shorter texts, the score is an estimate.
 
+## Try ProseScore
+
+[ProseScore](https://ckmtools.dev/prosescore/) is a free web tool powered by textlens. Paste text, get readability grades, sentiment, keywords, and SEO scores. All analysis runs in your browser.
+
 ## License
 
 MIT
