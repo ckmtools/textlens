@@ -1,6 +1,6 @@
 {
   "name": "textlens",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fast, zero-dependency text analysis and readability toolkit for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",

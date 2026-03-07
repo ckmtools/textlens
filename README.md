@@ -10,6 +10,10 @@ Fast, zero-dependency text analysis and readability toolkit for Node.js.
 
 **[Documentation & Examples](https://ckmtools.dev/textlens/)** | **[GitHub](https://github.com/ckmtools/textlens)** | **[npm](https://www.npmjs.com/package/textlens)**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ckmtools/textlens/main/assets/hero-banner.png" alt="TextLens — complete text analysis toolkit for Node.js and the CLI" width="800">
+</p>
+
 ## Installation
 
 ```bash
