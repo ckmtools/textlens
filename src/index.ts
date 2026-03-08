@@ -29,6 +29,9 @@ export type {
 
 // All-in-one analysis
 export function analyze(text: string): AnalysisResult {
+  if (typeof text !== 'string') {
+    throw new TypeError(`Expected a string, got ${typeof text}`);
+  }
   return {
     statistics: computeStatistics(text),
     readability: readability(text),

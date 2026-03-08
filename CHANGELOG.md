@@ -2,6 +2,11 @@
 
 All notable changes to textlens are documented here.
 
+## [1.0.9] - 2026-03-08
+
+### Fixed
+- Input validation: `analyze()` now throws a clear `TypeError` for non-string inputs instead of a cryptic error
+
 ## [1.0.8] - 2026-03-08
 
 ### Added
