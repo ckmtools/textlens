@@ -1,6 +1,6 @@
 {
   "name": "textlens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fast, zero-dependency text analysis and readability toolkit for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -53,7 +53,17 @@
     "reading-time",
     "keyword-density",
     "text-statistics",
-    "typescript"
+    "typescript",
+    "prose",
+    "writing",
+    "editor",
+    "grade-level",
+    "text-complexity",
+    "word-count",
+    "sentence-length",
+    "writing-quality",
+    "hemingway",
+    "text-readability"
   ],
   "author": "ckmtools",
   "license": "MIT",
