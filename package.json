@@ -1,6 +1,6 @@
 {
   "name": "textlens",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fast, zero-dependency text analysis and readability toolkit for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -72,10 +72,16 @@
     "type": "git",
     "url": "https://github.com/ckmtools/textlens"
   },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/ckmtools"
-  },
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://buy.stripe.com/4gMbJ16rM3MJ4HZ4hGf7i00"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ckmtools"
+    }
+  ],
   "engines": {
     "node": ">=16"
   },
