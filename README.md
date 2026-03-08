@@ -15,6 +15,10 @@ Fast, zero-dependency text analysis and readability toolkit for Node.js.
   <img src="https://raw.githubusercontent.com/ckmtools/textlens/main/assets/hero-banner.png" alt="TextLens — complete text analysis toolkit for Node.js and the CLI" width="800">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ckmtools/textlens/main/assets/demo.gif" alt="textlens CLI demo" width="600">
+</p>
+
 ## Why textlens?
 
 Replace multiple single-purpose packages with one:
