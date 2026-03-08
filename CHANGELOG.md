@@ -2,6 +2,16 @@
 
 All notable changes to textlens are documented here.
 
+## [1.0.8] - 2026-03-08
+
+### Added
+- GitHub Actions CI workflow (Node 18/20/22)
+- Coverage reporting with `npm run test:coverage`
+- ESLint flat config
+- CHANGELOG.md
+- "Why textlens?" comparison table in README (vs 7 separate packages)
+- CI badge in README
+
 ## [1.0.7] - 2026-03-07
 
 ### Added
