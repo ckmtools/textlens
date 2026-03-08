@@ -2,18 +2,48 @@
 
 Fast, zero-dependency text analysis and readability toolkit for Node.js.
 
+[![CI](https://github.com/ckmtools/textlens/actions/workflows/ci.yml/badge.svg)](https://github.com/ckmtools/textlens/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/textlens?color=00E5A0)](https://www.npmjs.com/package/textlens)
 [![npm downloads](https://img.shields.io/npm/dm/textlens)](https://www.npmjs.com/package/textlens)
 [![license](https://img.shields.io/npm/l/textlens)](https://github.com/ckmtools/textlens/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)](https://www.typescriptlang.org/)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/textlens)
-[![sponsor](https://img.shields.io/badge/sponsor-💚-00E5A0)](https://buy.stripe.com/4gMbJ16rM3MJ4HZ4hGf7i00)
 
 **[Documentation & Examples](https://ckmtools.dev/textlens/)** | **[GitHub](https://github.com/ckmtools/textlens)** | **[npm](https://www.npmjs.com/package/textlens)**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ckmtools/textlens/main/assets/hero-banner.png" alt="TextLens — complete text analysis toolkit for Node.js and the CLI" width="800">
 </p>
+
+## Why textlens?
+
+Replace multiple single-purpose packages with one:
+
+```
+# Before: 7 packages for text analysis
+npm install flesch flesch-kincaid coleman-liau automated-readability sentiment keyword-extractor reading-time
+
+# After: 1 package
+npm install textlens
+```
+
+| Capability | Separate packages | textlens |
+|---|---|---|
+| Flesch Reading Ease | `flesch` | `readability(text).fleschReadingEase` |
+| Flesch-Kincaid Grade | `flesch-kincaid` | `readability(text).fleschKincaidGrade` |
+| Coleman-Liau Index | `coleman-liau` | `readability(text).colemanLiau` |
+| Automated Readability | `automated-readability` | `readability(text).automatedReadability` |
+| Sentiment analysis | `sentiment` | `sentiment(text)` |
+| Keyword extraction | `keyword-extractor` | `keywords(text)` |
+| Reading time | `reading-time` | `readingTime(text)` |
+| Gunning Fog, SMOG, Dale-Chall, Linsear Write | *no popular package* | Included |
+| Keyword density (n-grams) | *no popular package* | `density(text)` |
+| SEO scoring | *no popular package* | `seoScore(text)` |
+| Extractive summarization | *no popular package* | `summarize(text)` |
+| CLI tool | *assemble yourself* | `npx textlens file.txt` |
+| TypeScript types | *varies* | Built-in |
+
+One import. One API. Zero dependencies.
 
 ## Installation
 

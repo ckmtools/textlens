@@ -20,12 +20,14 @@
     "dist",
     "bin",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
@@ -86,7 +88,10 @@
     "node": ">=16"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^25.3.3",
+    "@vitest/coverage-v8": "^3.2.4",
+    "eslint": "^10.0.3",
     "tsup": "^8",
     "typescript": "^5",
     "vitest": "^3"
