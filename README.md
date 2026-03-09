@@ -291,28 +291,6 @@ The **consensus grade** is a weighted average of all formula results, providing 
 
 - **SMOG Index** requires at least 30 sentences for a statistically valid result. For shorter texts, the score is an estimate.
 
-## Free vs Pro
-
-textlens is free and open source. Pro adds power features for teams and heavy users.
-
-| Feature | Free | Pro |
-|---|:---:|:---:|
-| Text statistics (words, sentences, paragraphs) | ✓ | ✓ |
-| 8 readability formulas + consensus grade | ✓ | ✓ |
-| Reading time estimation | ✓ | ✓ |
-| Keyword extraction (TF-IDF) | ✓ | ✓ |
-| Keyword density (unigrams, bigrams, trigrams) | ✓ | ✓ |
-| Sentiment analysis (AFINN-165) | ✓ | ✓ |
-| SEO content scoring | ✓ | ✓ |
-| Extractive summarization | ✓ | ✓ |
-| CLI tool | ✓ | ✓ |
-| Batch processing (directories, globs) | — | ✓ |
-| CSV/JSON export | — | ✓ |
-| Advanced sentiment (multi-language) | — | ✓ |
-| Priority support | — | ✓ |
-
-**[Get textlens Pro — $29/year](https://buy.stripe.com/4gMbJ16rM3MJ4HZ4hGf7i00)**
-
 ## Sponsor
 
 If textlens saves you time, consider sponsoring the project. Sponsorship funds ongoing development and new features.
