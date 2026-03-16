@@ -262,6 +262,14 @@ textlens --help
 textlens --version
 ```
 
+## TextLens API
+
+Need text analysis in **Python, Ruby, Go, or any language**? The [TextLens API](https://api.ckmtools.dev) wraps this package as a hosted REST endpoint — no Node.js required.
+
+- Free tier: 1,000 requests/month
+- Works with Zapier, Make, n8n, and any HTTP client
+- [Get a free API key →](https://api.ckmtools.dev)
+
 ## Readability Formulas
 
 | Formula | What It Measures |
@@ -308,3 +316,4 @@ npm fund textlens
 ## License
 
 MIT
+
