@@ -303,7 +303,7 @@ The **consensus grade** is a weighted average of all formula results, providing 
 
 If textlens saves you time, consider sponsoring the project. Sponsorship funds ongoing development and new features.
 
-[![sponsor textlens](https://img.shields.io/badge/sponsor-%F0%9F%92%9A-00E5A0?style=for-the-badge)](https://github.com/sponsors/ckmtools)
+[![sponsor textlens](https://img.shields.io/badge/sponsor-%F0%9F%92%9A-00E5A0?style=for-the-badge)](https://buy.stripe.com/4gMbJ16rM3MJ4HZ4hGf7i00)
 
 ```
 npm fund textlens
