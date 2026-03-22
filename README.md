@@ -70,6 +70,14 @@ console.log(result.keywords);                   // top keywords by TF-IDF score
 console.log(result.summary.sentences);          // extractive summary
 ```
 
+## TextLens API — Hosted REST Endpoint
+
+Need text analysis without running Node? **[TextLens API](https://ckmtools.dev/api/)** is a hosted REST endpoint — same analysis, any language, zero setup.
+
+[![early access](https://img.shields.io/badge/early%20access-waitlist%20open-00E5A0)](https://ckmtools.dev/api/)
+
+→ **[Join the early access waitlist →](https://ckmtools.dev/api/)**
+
 ## Features
 
 - **Text Statistics** — word, sentence, paragraph, and syllable counts
@@ -264,11 +272,11 @@ textlens --version
 
 ## TextLens API
 
-Need text analysis in **Python, Ruby, Go, or any language**? The [TextLens API](https://api.ckmtools.dev) wraps this package as a hosted REST endpoint — no Node.js required.
+Need text analysis in **Python, Ruby, Go, or any language**? The [TextLens API](https://ckmtools.dev/api/) wraps this package as a hosted REST endpoint — no Node.js required.
 
 - Free tier: 1,000 requests/month
 - Works with Zapier, Make, n8n, and any HTTP client
-- [Get a free API key →](https://api.ckmtools.dev)
+- [Join the early access waitlist →](https://ckmtools.dev/api/)
 
 ## Readability Formulas
 
